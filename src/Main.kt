@@ -29,6 +29,4 @@ fun main() {
     println(muttonCurryCooking.curry.getCurryName() + "は" + muttonCurryCooking.curry.howMuch() + "円")
     println(chickenCurryCooking.curry.getCurryName() + "は" + chickenCurryCooking.curry.howMuch().toString() + "円")
     println(keemaCurryCooking.curry.getCurryName() + "は" + keemaCurryCooking.curry.howMuch().toString()  + "円")
-
-    keemaCurryCooking.curry.howMuch().let { println(it)}
 }
