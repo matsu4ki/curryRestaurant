@@ -2,13 +2,13 @@ package curry
 
 import curry.enum.CurryType
 
-class ChikenCurry(val curry: Curry): Curry {
+class ChickenCurry(val curry: Curry): Curry {
     override fun chooseHotFlavor(): String {
         return curry.chooseHotFlavor()
     }
 
     override fun getCurryName(): String {
-        return CurryType.Chiken.jaName + curry.getCurryName()
+        return CurryType.Chicken.jaName + curry.getCurryName()
     }
 
     override fun howMuch(): Int {
