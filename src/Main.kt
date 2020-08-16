@@ -7,6 +7,7 @@ import curry.option.VerySpicy
 
 fun main() {
     println("注文をどうぞ")
+    println("==================")
 
     // 注文
     val muttonCurryCooking = MuttonCurryCooking()
